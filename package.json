@@ -1,0 +1,32 @@
+{
+  "name": "simple-redux-demo-without-ui",
+  "version": "1.0.0",
+  "description": "redux console demo",
+  "main": "main.js",
+  "scripts": {
+    "compile": "node_modules/.bin/webpack",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianEdelmaier/SimpleReduxDemoWithoutUI.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Florian Edelmaier <florian.edelmaier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlorianEdelmaier/SimpleReduxDemoWithoutUI/issues"
+  },
+  "homepage": "https://github.com/FlorianEdelmaier/SimpleReduxDemoWithoutUI#readme",
+  "dependencies": {
+    "redux": "3.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "6.4.0",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "webpack": "1.12.11"
+  }
+}
